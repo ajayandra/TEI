@@ -1,6 +1,6 @@
 # TEI - Text Encoding Initiative
 
-## Using Manuscripts, Inscriptions, Carte as an object for research
+## Using Manuscripts, Inscriptions as an object for research
 ### How to make pages into usable/re-usable research materials?
 - Digitization
 - Conversion to text
@@ -11,4 +11,8 @@
 - TIF or PNG (for high resolution image quality)
 - Conversion to text (Getting Text)
 - Is it handwritten?
-  -- Transcribe (use tools like [From the Page] (https://fromthepage.com/), [Transkribus] (https://readcoop.eu/transkribus/)
+  -- Transcribe (use tools like [From the Page] (https://fromthepage.com/), [Transkribus] (https://readcoop.eu/transkribus/))
+- Is it typed?
+  -- OCR (Optical Character Recognition)
+  
+  
