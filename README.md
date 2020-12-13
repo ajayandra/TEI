@@ -1,2 +1,2 @@
 # TEI
-Text Encoding Inititive
+Text Encoding Initiative
