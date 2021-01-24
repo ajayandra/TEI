@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>Anuparameśvara inscription in the Pashupatinath temple compound (PI008)</title><!--Change the title of the file, e.g. Raktamālā grant of the time of Budhagupta, year 159-->
+                <respStmt><!-- add an element respStmt for each person involved -->
+                    <resp>creation of file</resp><!-- work done in the file, e.g. editor ...-->
+                    <persName ref="part:nimi"><!-- update the id -->
+                        <forename>Nina</forename><!-- fill in your  names — it is possible to use only <name> instead of <foreame> and <surname> -->
+                        <surname>Mirnig</surname>
+                    </persName>
+                    <persName ref="part:diac"><!-- update the id -->
+                        <forename>Diwakar</forename><!-- fill in your  names — it is possible to use only <name> instead of <foreame> and <surname> -->
+                        <surname>Acharya</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>intellectual authorship of edition</resp><!-- this may be the same as the creator of the file -->
+                    <persName ref="part:nimi"><!-- update the id -->
+
+                        <forename>Nina</forename><!-- fill in your  names — it is possible to use only <name> instead of <foreame> and <surname> -->
+                        <surname>Mirnig</surname>
+                    </persName>
+                    <persName ref="part:diac"><!-- update the id -->
+                        <forename>Diwakar</forename><!-- fill in your  names — it is possible to use only <name> instead of <foreame> and <surname> -->
+                        <surname>Acharya</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA
+                    <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</note>
+                </authority>
+                <pubPlace>Oxford, Vienna</pubPlace>
+                <idno type="filename">PI006</idno><!-- Replace by filename, e.g. Pallava00001 -->
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                        <p>Copyright (c) 2019-2025 by Nina Mirnig and Diwakar Acharya.</p><!-- Replace year and name, use format "Forename1 Surname1 & Forename2 Surname2" or "Forename1 Surname1, Forename2 Surname2 & Forename3 Surname3"  if necessary — the copyright is that of the encoder(s) -->
+                    </licence>
+                </availability>
+                <date from="2019" to="2025">2019-2025</date>
+            </publicationStmt>
+            <sourceDesc>
+              <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+                  <msIdentifier>
+                      <repository>DHARMAbase</repository>
+                      <idno/><!-- don't modify this -->
+                  </msIdentifier>
+                  <msContents><!-- describe the intellectual content of an inscription -->
+                      <summary> This inscription, dated to <foreign>saṃvat</foreign> 462 records the installation of a Anuparameśvara, a <foreign>liṅga</foreign> shrine set up by Abhīrī in memory of her deceased husband Anuparama.
+                      </summary>
+                  </msContents>
+                  <physDesc>
+                      <handDesc>
+                          <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                          <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+          <summary><p><p/></summary>
+          <handNote xml:id="Pallava00001_hand1"></handNote>
+          <handNote xml:id="Pallava00001_hand2"></handNote>
+         -->
+                      </handDesc>
+                  </physDesc>
+              </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+          <change who="part:nimi part:diac" when="2020-05-04" status="draft">Initial encoding of the text</change>
+            <change who="part:axja" when="2019-12-18" status="draft">Creation of the template</change><!-- replace this by a line that has you as @who, that has the @date on which you finished the first basic encoding of the file, and that has the following description of what was finished on that date: "Initial encoding of the file." Then add a <change> entry for each significant change to the file. -->
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="san-Latn"><!-- update the @xml:lang value, see EG §7.2-->
+            <!--edition encoded as per EG §§2−7-->
+       <ab>
+<lb n="01"/> <g type="symbol" subtype="spiralR"/>
+
+<l>ā<add place="below">bhī</add>rī khyātaguṇā bhāryyā paramābhimāninaḥ sūnoḥ <space/> </l>
+<l>puṇyavivṛddhyai bhartur devatām itaḥ prayātasya <g type="numeral">1</g></l>
+<l>puṇye 'hani dhananicayair dvijajanam abhipūjya dānamānābhyāM</l>
+<l><lb n="2"/>putreṇānujñātā cakāra saṃsthāpanam śambhoḥ <space/> </l>
+           
+met="upagīti"
+<l>datvā cākṣayanīvīṃ vapraparicchadavibhūṣādīn <space/> </l>
+<l>anuparameśvara-saṃjñāñ ca śambho<supplied reason="omitted">r</supplied> bhuvanamahitasyāsya <g type="numeral">2</g></l>
+
+<p>
+<lb n="3"/>bhagavate deva-devāyāsmai svayam pratiṣṭhāpitāyānuparameśvara-saṃjñitāyābhyaṅga-snapanārccana-gandha-dhūpa-bali-nivedanādi-pravarttanārtthaṃ khaṇḍa-phuṭṭa-pratisaṃ<lb n="4" 
+    break="no"/>skārārtthañ ca pati-deva<unclear cert="low">prāṇābhīrīgominyā</unclear> pataye tri-diva-sthāya puṇyāpyāyanārttham āyuṣmatāñ cāpatyānām bhaumaguptādīnām bhogārogyāyur-ānantyāvāptaye <g type="numeral">1</g>
+<lb n="5"/>vempā-grāme svayapuparopitanadīkṣetrakhaṇḍadvayaṃ dattam iti <g type="numeral">1</g> saṃvaT <num value="462">400 60 2</num> jeṣṭha-māse tithau dvitīyā<unclear>yām</unclear>
+</p>
+         </div>
+         <div type="apparatus">
+           <!--apparatus encoded as per EG §9.1, basic elements for apparatus below-->
+
+             <!-- Question ad. 9.1. Are we really not to record the difference between preserved readings on the stone and parts that previous editors were still able to read? -->
+               <listApp><!-- one <app> for each apparatus entry -->
+                 
+                  </app>
+               </listApp>
+         </div>
+
+
+         <div type="translation" xml:lang="eng">
+On this auspicious day, Ābhīrī, wife of the son of Paramābhimāni, whose good qualities are well known, after worshipping Brahmins with plenty of gifts established [this liṅga of] Śiva together with two measrues of [land-] donations with the permission of her son to increase the merit of [her] husband, who has departed from this [world] to [reach] godhood. And to this Śiva, worshipped in the shrine, she gave [this] permanent endowment [consisting of] things such as vapra (cultivated land?), garments and ornaments, [and she also gave] the name Anuparameśvara [to the liṅga].
+
+Ābhīrīgomiṇī, the life to her husband who is like a deity to her,  gave two plots of land on the raised river bank in Svayapupa(?) in Vempā village, to this Lord Devadeva (i.e. Śiva) for the purpose of providing for smearing and bathing [the liṅga], perfumes and incensce for worshipping [the liṅga] and bali offerings and repairing anything that is broked for the [liṅga] named Anuparameśvara, which she has established herself, for the increasing of merit for her husband, now in heaven, and also for the attainment of wealth, freedom from disease, long life and immortality for her honourable offspring, including Bhaumagupta. 
+
+</p>
+         </div>
+         <div type="commentary">
+            <!--commentary encoded as per section §9.3 -->
+         </div>
+        <div type="bibliography">
+	<!--bibliography encoded as per section §9.4 -->
+	<!-- NB: you are encouraged to experiment with encoding bibliography to the extent you have the bibliographic data available, but it is not mandatory at this stage, because our bibliographic data are normally assembled along with other metadata in spreadsheets and will be imported from there into our xml files by a semi-automated process at a later stage. -->
+           <p><!-- formulate epigraphic lemma here, using the items of primary bibliography --></p>
+           <listBibl type="secondary">
+              <bibl/><!-- one <bibl/> per item of secondary bibliography -->
+           </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>
